@@ -1,5 +1,9 @@
+document.querySelector(".btn").addEventListener("click", btn_click);
 
-var randomnumber1 = Math.floor(Math.random()*6)+1;
+
+function btn_click() {
+  
+ var randomnumber1 = Math.floor(Math.random()*6)+1;
 
 var randomnumber2 = Math.floor(Math.random()*6)+1;
 
@@ -17,3 +21,8 @@ else if (randomnumber1 > randomnumber2) {
 else  {
   document.querySelector("h1").innerHTML = "Player 2 wins 🚩";
 }
+
+}
+
+
+
