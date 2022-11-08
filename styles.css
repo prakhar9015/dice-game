@@ -9,7 +9,6 @@
   display: inline-block;
 }
 
-
 body {
   background-color: #393E46;
 }
@@ -106,8 +105,8 @@ footer {
   }
 
   .dice {
-    padding: 5% 5%;
-    width: 300px;
+    /* padding: 5% 2%; */
+    width: 250px;
   }
 
   h1 {
