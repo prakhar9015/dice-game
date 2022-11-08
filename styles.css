@@ -98,12 +98,6 @@ footer {
 
 @media (max-width: 1380px) {
 
-
-  .container {
-    padding-top: 15%;
-
-  }
-
   h1 {
     margin: 25px;
     font-family: 'Lobster', cursive;
