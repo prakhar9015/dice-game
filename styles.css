@@ -7,7 +7,6 @@
 .dice {
   text-align: center;
   display: inline-block;
-
 }
 
 body {
@@ -97,14 +96,26 @@ footer {
   text-decoration: none;
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1380px) {
+
+
+  .container {
+    padding-top: 15%;
+
+  }
+
+  .dice {
+    padding: 5% 5%;
+    width: 300px;
+  }
 
   h1 {
-    margin: 20px;
+    margin: 25px;
     font-family: 'Lobster', cursive;
     text-shadow: 5px 0 #232931;
-    font-size: 5rem;
+    font-size: 5.5rem;
     color: #4ECCA3;
+    padding-bottom: 8%;
   }
 
   footer {
@@ -113,6 +124,12 @@ footer {
 
   .btn {
     margin-top: 6%;
+    padding: 1.5% 5%;
+  }
+
+  .info-icon {
+    padding: 3% 1.8%;
+    font-size: 2rem;
   }
 
 }
