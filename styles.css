@@ -1,5 +1,5 @@
 .container {
-  width: 70%;
+  width: 98%;
   margin: auto;
   text-align: center;
 }
@@ -10,62 +10,62 @@
 }
 
 body {
-  background-color: #393E46;
+  background-color: #393e46;
 }
 
 h1 {
   margin: 25px;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
-  color: #4ECCA3;
+  color: #4ecca3;
 }
 
 p {
   font-size: 2rem;
-  color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
 }
 
 img {
   width: 80%;
+  /* margin: 40px; */
 }
 
 footer {
   margin-top: 2%;
-  color: #EEEEEE;
+  color: #eeeeee;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
 }
 
 .tweet :hover {
-      color: #00adb5;
+  color: #00adb5;
 }
 
 .insta :hover {
-      color: #e11d74;
+  color: #e11d74;
 }
 
 .linkd :hover {
-      color: #04009a;
+  color: #04009a;
 }
 
 .mail :hover {
-      color: #0dcaf0;
+  color: #0dcaf0;
 }
 
 .info-icon {
-   color: grey;  /*256D85 */
+  color: grey; /*256D85 */
   margin: 20px 10px;
 }
 
-.anchor-icon :hover{
-    transform:scale(1.8);
+.anchor-icon :hover {
+  transform: scale(1.2);
 }
 
 .btn-text {
   color: #fff;
-
 }
 
 .btn {
@@ -96,22 +96,34 @@ footer {
   text-decoration: none;
 }
 
-@media (max-width: 1380px) {
+.player {
+  font-size: 2.5rem;
+}
+
+@media (max-width: 989px) {
+  /* body {
+    width: 100%;
+  } */
 
   h1 {
-    margin: 25px;
-    font-family: 'Lobster', cursive;
+    /* margin: 25px; */
+    font-family: "Lobster", cursive;
     text-shadow: 5px 0 #232931;
     font-size: 7rem;
-    color: #4ECCA3;
+    color: #4ecca3;
   }
 
+  img {
+    width: 90%;
+    margin: 30px;
+  }
 
   footer {
     margin-top: 4%;
   }
 
   .btn {
+    /* font-size: 50px; */
     margin-top: 6%;
     padding: 1.5% 5%;
   }
@@ -120,5 +132,4 @@ footer {
     padding: 3% 1.8%;
     font-size: 2rem;
   }
-
 }
